@@ -14,7 +14,7 @@ const resolve = function(...args) {
 module.exports = {
   input: resolve('./src/index.ts'),
   output: {
-    file: resolve('./', pkg.main), // 为了项目的统一性，这里读取 package.json 中的配置项
+    file: resolve('./', pkg.main),
     format: 'cjs',
   },
   plugins: [

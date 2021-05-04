@@ -1,7 +1,7 @@
 {
-  "name": "zer",
+  "name": "$ZER_NAME",
   "version": "0.0.1",
-  "description": "Zer world.",
+  "description": "Some stuff.",
   "main": "lib/index.js",
   "exports": {
     "./package.json": "./package.json"
